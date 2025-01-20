@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  height: 100vh;
+}
+
+.container {
+  background: linear-gradient(135deg, #ff4500, #ffa500, #ffd700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 40vw;
+}
+
+.content .logo {
+  width: 100px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+}
+
+#notify-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#notify-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #666;
+}
+
+#notify-form button {
+  background: linear-gradient(135deg, #ff4500, #ffa500, #ffd700);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#notify-form button:hover {
+  background: linear-gradient(135deg, #e63900, #ff8c00, #ffc700);
+  transform: scale(1.05);
+}
